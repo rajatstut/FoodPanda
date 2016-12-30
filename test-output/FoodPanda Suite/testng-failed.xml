@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FoodPanda Suite]" parallel="tests">
+  <parameter name="port" value="4444"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="FoodPanda_Chrome(failed)" parallel="tests">
+    <parameter name="port" value="4444"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.FP.verifyloginFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testFP3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.FP.verifyloginFunctionality -->
+      <class name="com.test.FP.verifybasicFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.FP.verifybasicFunctionality -->
+    </classes>
+  </test> <!-- FoodPanda_Chrome(failed) -->
+</suite> <!-- Failed suite [FoodPanda Suite] -->

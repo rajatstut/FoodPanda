@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FoodPanda Suite" duration-ms="21038" started-at="2016-12-30T09:56:58Z" finished-at="2016-12-30T09:57:19Z">
+  <suite name="FoodPanda Suite" duration-ms="31439" started-at="2016-12-30T12:19:15Z" finished-at="2016-12-30T12:19:47Z">
     <groups>
     </groups>
-    <test name="FoodPanda_Chrome" duration-ms="21038" started-at="2016-12-30T09:56:58Z" finished-at="2016-12-30T09:57:19Z">
-      <class name="com.test.FP.TestRun">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="setUp" is-config="true" duration-ms="8130" started-at="2016-12-30T15:26:58Z" finished-at="2016-12-30T15:27:06Z">
+    <test name="FoodPanda_Chrome" duration-ms="31439" started-at="2016-12-30T12:19:15Z" finished-at="2016-12-30T12:19:47Z">
+      <class name="com.test.FP.verifybasicFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="setUp" is-config="true" duration-ms="7938" started-at="2016-12-30T17:49:15Z" finished-at="2016-12-30T17:49:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testFP()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="testFP" duration-ms="2348" started-at="2016-12-30T15:27:06Z" finished-at="2016-12-30T15:27:09Z">
+        <test-method status="PASS" signature="testFP()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="testFP" duration-ms="2531" started-at="2016-12-30T17:49:23Z" finished-at="2016-12-30T17:49:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFP -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="tearDown" is-config="true" duration-ms="1267" started-at="2016-12-30T15:27:09Z" finished-at="2016-12-30T15:27:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="tearDown" is-config="true" duration-ms="1306" started-at="2016-12-30T17:49:26Z" finished-at="2016-12-30T17:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="setUp" is-config="true" duration-ms="7237" started-at="2016-12-30T15:27:10Z" finished-at="2016-12-30T15:27:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="setUp" is-config="true" duration-ms="6893" started-at="2016-12-30T17:49:27Z" finished-at="2016-12-30T17:49:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testFP2()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="testFP2" duration-ms="773" started-at="2016-12-30T15:27:17Z" finished-at="2016-12-30T15:27:18Z">
+        <test-method status="PASS" signature="testFP2()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="testFP2" duration-ms="727" started-at="2016-12-30T17:49:34Z" finished-at="2016-12-30T17:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFP2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.FP.TestRun@63d4e2ba]" name="tearDown" is-config="true" duration-ms="1267" started-at="2016-12-30T15:27:18Z" finished-at="2016-12-30T15:27:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.FP.verifybasicFunctionality@5c7fa833]" name="tearDown" is-config="true" duration-ms="1287" started-at="2016-12-30T17:49:35Z" finished-at="2016-12-30T17:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.FP.TestRun -->
+      </class> <!-- com.test.FP.verifybasicFunctionality -->
+      <class name="com.test.FP.verifyloginFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FP.verifyloginFunctionality@2b98378d]" name="setUp" is-config="true" duration-ms="7718" started-at="2016-12-30T17:49:36Z" finished-at="2016-12-30T17:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFP3()[pri:0, instance:com.test.FP.verifyloginFunctionality@2b98378d]" name="testFP3" duration-ms="1689" started-at="2016-12-30T17:49:44Z" finished-at="2016-12-30T17:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFP3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.FP.verifyloginFunctionality@2b98378d]" name="tearDown" is-config="true" duration-ms="1329" started-at="2016-12-30T17:49:45Z" finished-at="2016-12-30T17:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.FP.verifyloginFunctionality -->
     </test> <!-- FoodPanda_Chrome -->
   </suite> <!-- FoodPanda Suite -->
 </testng-results>

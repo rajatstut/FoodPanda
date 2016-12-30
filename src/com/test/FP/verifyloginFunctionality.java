@@ -8,6 +8,8 @@ import static org.testng.Assert.*;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class verifyloginFunctionality {
 	private WebDriver driver;
@@ -26,19 +28,8 @@ public class verifyloginFunctionality {
 
 	@Test
 	public void testFP3() throws Exception {
-		driver.findElement(By.cssSelector("a.js-auth-login > span.label"))
-				.click();
-		driver.findElement(By.id("customer_login_email")).clear();
-		driver.findElement(By.id("customer_login_email")).sendKeys(
-				"rajatstut@yahoo.com");
-		driver.findElement(By.id("customer_login_password")).clear();
-		driver.findElement(By.id("customer_login_password"))
-				.sendKeys("test123");
-		driver.findElement(By.id("customer_login_rememberCustomerLogin"))
-				.click();
-		driver.findElement(By.id("customer_login_login")).click();
 		driver.findElement(By.cssSelector("span.label")).click();
-
+		driver.findElement(By.xpath(".//*[@id='leftpart']/div/ul[1]/li[1]/label")).click();
 	}
 
 	@AfterMethod(alwaysRun = true)
