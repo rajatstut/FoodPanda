@@ -6,8 +6,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="port" value="4444" />
 		<classes>
-			<class name="com.test.FP.verifybasicFunctionality" />
-			<class name="com.test.FP.verifyloginFunctionality" />
+			<class name="com.test.FP.TestRun" />
 		</classes>
 	</test>
 </suite> 

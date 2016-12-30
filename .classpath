@@ -49,5 +49,6 @@
 	<classpathentry kind="lib" path="lib/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="lib" path="lib/uri-template-0.9.jar"/>
 	<classpathentry kind="lib" path="lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.8.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
