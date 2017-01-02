@@ -129,6 +129,21 @@
           <div class="suite-FoodPanda_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.test.FP.verifyloginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFP3">
+                  </a> <!-- testFP3 -->
+                  <span class="method-name">testFP3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FoodPanda_Suite-class-passed -->
+          <div class="suite-FoodPanda_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.test.FP.verifybasicFunctionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,21 +163,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-FoodPanda_Suite-class-passed -->
-          <div class="suite-FoodPanda_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.test.FP.verifyloginFunctionality</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFP3">
-                  </a> <!-- testFP3 -->
-                  <span class="method-name">testFP3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FoodPanda_Suite-class-passed -->
         </div> <!-- panel FoodPanda_Suite -->
         <div panel-name="test-xml-FoodPanda_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -172,10 +172,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;FoodPanda Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite name=&quot;FoodPanda Suite&quot;&gt;
   &lt;test name=&quot;FoodPanda_Chrome&quot;&gt;
-    &lt;parameter name=&quot;port&quot; value=&quot;4444&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.test.FP.verifybasicFunctionality&quot;/&gt;
       &lt;class name=&quot;com.test.FP.verifyloginFunctionality&quot;/&gt;
@@ -220,22 +218,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testFP')
-data.setCell(0, 2, 'com.test.FP.verifybasicFunctionality')
-data.setCell(0, 3, 2531);
+data.setCell(0, 1, 'testFP3')
+data.setCell(0, 2, 'com.test.FP.verifyloginFunctionality')
+data.setCell(0, 3, 2649);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testFP3')
-data.setCell(1, 2, 'com.test.FP.verifyloginFunctionality')
-data.setCell(1, 3, 1689);
+data.setCell(1, 1, 'testFP')
+data.setCell(1, 2, 'com.test.FP.verifybasicFunctionality')
+data.setCell(1, 3, 2556);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testFP2')
 data.setCell(2, 2, 'com.test.FP.verifybasicFunctionality')
-data.setCell(2, 3, 727);
+data.setCell(2, 3, 703);
 window.suiteTableData['FoodPanda_Suite']= { tableData: data, tableDiv: 'times-div-FoodPanda_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-FoodPanda_Suite">
               </div> <!-- times-div-FoodPanda_Suite -->
             </div> <!-- times-div -->
@@ -268,38 +266,38 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFP</span>
-                <span class="method-start">7938 ms</span>
+                <span class="method-start">8536 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10470 ms</span>
+                <span class="method-start">11096 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11777 ms</span>
+                <span class="method-start">12431 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFP2</span>
-                <span class="method-start">18670 ms</span>
+                <span class="method-start">19466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19398 ms</span>
+                <span class="method-start">20171 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.FP.verifyloginFunctionality</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">20685 ms</span>
+                <span class="method-start">21425 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFP3</span>
-                <span class="method-start">28403 ms</span>
+                <span class="method-start">28252 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30094 ms</span>
+                <span class="method-start">30903 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

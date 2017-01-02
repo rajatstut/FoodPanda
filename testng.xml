@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FoodPanda Suite" parallel="tests" thread-count="5">
-	
-	<test name="FoodPanda_Chrome">
-		<parameter name="browser" value="chrome" />
-		<parameter name="port" value="4444" />
-		<classes>
-			<class name="com.test.FP.verifybasicFunctionality" />
-			<class name="com.test.FP.verifyloginFunctionality" />
-		</classes>
-	</test>
-</suite> 
-
-
+<suite name="FoodPanda Suite">
+  <test name="FoodPanda_Chrome">
+    <classes>
+      <class name="com.test.FP.verifybasicFunctionality"/>  
+      <class name="com.test.FP.verifyloginFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
